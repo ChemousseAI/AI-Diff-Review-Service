@@ -1,0 +1,17 @@
+{
+  "name": "ai-diff-review-service",
+  "version": "1.0.0",
+  "description": "AI Diff Review Service - async unified-diff code review with mock and llm providers",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test:smoke": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
